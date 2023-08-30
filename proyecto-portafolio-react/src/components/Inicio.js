@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 export const Inicio = () => {
   return (
-  <div>
+  <div className='home'>
 
     <h1>
-      Hola, soy Alberto Aguilera y soy desarrollador web en Santiago de Chile.
-      Ofrezco mis servicios de programación y desarrollo web en todo tipo de proyectos. 
+      Hola, soy <strong>Alberto Aguilera</strong> y soy desarrollador web en Santiago de Chile.
+      Ofrezco mis servicios de <strong>programación</strong> y <strong>desarrollo web</strong> en todo tipo de proyectos. 
     </h1> 
 
     <h2>
@@ -16,7 +16,7 @@ export const Inicio = () => {
     </h2>
 
     <section className='last-works'>
-      <h2>
+      <h2 className='heading'>
         Algunos de mis proyectos
       </h2>
       <p>Estos son algunos de mis trabajos en desarrollo web</p>
